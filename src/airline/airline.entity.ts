@@ -17,7 +17,7 @@ export class AirlineEntity {
     foundationDate: Date;
 
     @Column()
-    WebPage: string;
+    webPage: string;
 
     @ManyToMany(() => AirportEntity, airport => airport.airlines)
     airports: AirportEntity[];
