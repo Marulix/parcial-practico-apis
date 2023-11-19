@@ -14,7 +14,7 @@ export class AirportEntity {
     code: string;
 
     @Column()
-    country: Date;
+    country: string;
 
     @Column()
     city: string;
